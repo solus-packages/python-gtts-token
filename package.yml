@@ -1,0 +1,18 @@
+name       : python-gtts-token
+version    : 1.1
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/4c/c8/dd58eba1464729095217d3acfc4f6581348c6f495ea3342ed7dbc9f9e133/gTTS-token-1.1.1.zip : 74badf3ba37773d8ba4a462a09b64de76a0ebd4015d667a6fdb041c2219283ef
+license    : MIT
+component  : programming.python
+summary    : Calculates a token to run the Google Translate text to speech
+description: |
+    gTTS-token (Google Text to Speech token) is a python implementation of the token validation required by Google Translate when making a request to its translate API.
+builddeps  :
+    - pkgconfig(python3)
+rundeps    :
+    - python-requests
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
