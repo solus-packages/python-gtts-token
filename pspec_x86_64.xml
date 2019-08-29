@@ -2,15 +2,15 @@
     <Source>
         <Name>python-gtts-token</Name>
         <Packager>
-            <Name>Clive Johnston</Name>
-            <Email>clivejo@protonmail.com</Email>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Calculates a token to run the Google Translate text to speech</Summary>
         <Description xml:lang="en">gTTS-token (Google Text to Speech token) is a python implementation of the token validation required by Google Translate when making a request to its translate API.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-gtts-token</Name>
@@ -19,11 +19,11 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.1-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.1-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.1-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.1-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.1-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.3-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.3-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.3-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.3-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/gTTS_token-1.1.3-py3.6.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/gtts_token/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/gtts_token/__pycache__/__init__.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/gtts_token/__pycache__/gtts_token.cpython-36.pyc</Path>
@@ -33,12 +33,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-07-17</Date>
-            <Version>1.1</Version>
+        <Update release="2">
+            <Date>2019-08-15</Date>
+            <Version>1.1.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Clive Johnston</Name>
-            <Email>clivejo@protonmail.com</Email>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
         </Update>
     </History>
 </PISI>
